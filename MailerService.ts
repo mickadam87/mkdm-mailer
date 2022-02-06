@@ -1,6 +1,6 @@
 import { createTransport, Transporter } from "nodemailer";
 
-export class MailerService {
+export default class MailerService {
   transporter: Transporter;
   sender: string;
 
